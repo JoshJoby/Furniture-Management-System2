@@ -8,7 +8,7 @@ import SignUpPackage.UserDB;
 public class CartDB {
 	Connection con;
 	Statement s;
-	ResultSet rs;
+	ResultSet rs; 
 	public static String totalCost;
    	public static LinkedList<CartModel> existingProds = new LinkedList<CartModel>();
 
