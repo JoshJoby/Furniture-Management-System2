@@ -1,4 +1,4 @@
-package SignUpPackage; hello;
+package SignUpPackage; 
 import java.sql.*;
 import SignUpPackage.CartModel;
 import java.util.LinkedList;
