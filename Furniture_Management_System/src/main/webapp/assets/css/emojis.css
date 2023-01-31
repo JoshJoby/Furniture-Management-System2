@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css2?family=Merriweather:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+.emojis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 32px;
+}
+
+.eachEmoji {
+  position: relative;
+  font-size: 5em;
+  margin: 5px;
+  z-index: 100;
+  vertical-align: middle;
+  cursor: default;
+  filter: grayscale(0);
+  opacity: 0.5;
+}
+
+
+	input[name="upsetBox"][type=checkbox]:checked ~ div#div1 {
+      filter: grayscale(0) !important;
+			  opacity: 1 !important;
+}
+	input[name="okayBox"][type=checkbox]:checked ~ div#div2 {
+      filter: grayscale(0) !important;
+			  opacity: 1 !important;
+}
+	input[name="alrightBox"][type=checkbox]:checked ~ div#div3 {
+      filter: grayscale(0) !important;
+			  opacity: 1 !important;
+}
+	input[name="happyBox"][type=checkbox]:checked ~ div#div4 {
+      filter: grayscale(0) !important;
+			  opacity: 1 !important;
+}
+	input[name="thrilledBox"][type=checkbox]:checked ~ div#div5 {
+      filter: grayscale(0) !important;
+			  opacity: 1 !important;
+}
+			
+
